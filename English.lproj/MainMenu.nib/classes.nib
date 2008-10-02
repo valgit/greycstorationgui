@@ -1,0 +1,73 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                about = id; 
+                chooseInputFile = id; 
+                chooseOutputFile = id; 
+                quit = id; 
+                resetDefaults = id; 
+                restore = id; 
+                takeAngular = id; 
+                takeAnisotropy = id; 
+                takeContour = id; 
+                takeCurve = id; 
+                takeGeometry = id; 
+                takeIter = id; 
+                takeNoise = id; 
+                takeSpatial = id; 
+                takeStrength = id; 
+            }; 
+            CLASS = GreycstorationController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mAngularStep = NSSlider; 
+                mAngularStepStepper = NSStepper; 
+                mAngularStepTextField = NSTextField; 
+                mAnisotropy = NSSlider; 
+                mAnisotropyStepper = NSStepper; 
+                mAnisotropyTextField = NSTextField; 
+                mAppendTo = NSTextField; 
+                mCancel = NSButton; 
+                mContour = NSSlider; 
+                mContourStepper = NSStepper; 
+                mContourTextField = NSTextField; 
+                mCurve = NSSlider; 
+                mCurveStepper = NSStepper; 
+                mCurveTextField = NSTextField; 
+                mFast = NSButton; 
+                mFiletype = NSMatrix; 
+                mGeometry = NSSlider; 
+                mGeometryStepper = NSStepper; 
+                mGeometryTextField = NSTextField; 
+                mInputFile = NSTextField; 
+                mInputImage = NSImageView; 
+                mInterpolationType = NSPopUpButton; 
+                mIterStepper = NSStepper; 
+                mIterTextField = NSTextField; 
+                mIteration = NSSlider; 
+                mNoiseScale = NSSlider; 
+                mNoiseScaleStepper = NSStepper; 
+                mNoiseScaleTextField = NSTextField; 
+                mOuputFile = NSTextField; 
+                mOuputQualitySlider = NSSlider; 
+                mOutFile = NSTextField; 
+                mOutFormat = NSPopUpButton; 
+                mOutQuality = NSTextField; 
+                mOutputType = NSMatrix; 
+                mProgress = NSProgressIndicator; 
+                mRestoreButton = NSButton; 
+                mSpatialStep = NSSlider; 
+                mSpatialStepStepper = NSStepper; 
+                mSpatialStepTextField = NSTextField; 
+                mStrength = NSSlider; 
+                mStrengthStepper = NSStepper; 
+                mStrengthTextField = NSTextField; 
+                window = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
